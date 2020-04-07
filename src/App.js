@@ -109,11 +109,11 @@ let singleCountryData = ()=>{
 
 
       <div>
-      <div><h1>{countries.length}</h1>
+      <div>
          Search Country <input onChange = {searchFilter} />
 
       </div>
-        {console.log(countries)}
+    
         {Object.keys(countries).length == 1  ?  singleCountryData():returnList}
        
   </div>
